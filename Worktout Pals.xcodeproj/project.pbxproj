@@ -80,6 +80,7 @@
 		7E6709202AD06EE000C60070 /* WorkoutsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewModel.swift; sourceTree = "<group>"; };
 		7E6709222AD06EF600C60070 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
 		7E6709242AD06F9100C60070 /* HKWorkoutActvityTypeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKWorkoutActvityTypeExtension.swift; sourceTree = "<group>"; };
+		7E6709262AD071CF00C60070 /* Worktout-Pals-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Worktout-Pals-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +119,7 @@
 		7E6708EB2AD069BF00C60070 /* Worktout Pals Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				7E6709262AD071CF00C60070 /* Worktout-Pals-Watch-App-Info.plist */,
 				7E6708FE2AD06C3500C60070 /* Worktout Pals Watch App.entitlements */,
 				7E6708EC2AD069BF00C60070 /* Worktout_PalsApp.swift */,
 				7E6708EE2AD069BF00C60070 /* ContentView.swift */,
@@ -444,6 +446,7 @@
 				DEVELOPMENT_TEAM = DJA8943T8Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Worktout-Pals-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Worktout Pals";
 				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Used to Read data from HealthKit";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Used to Share data from HealthKit";
@@ -478,6 +481,7 @@
 				DEVELOPMENT_TEAM = DJA8943T8Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Worktout-Pals-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Worktout Pals";
 				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Used to Read data from HealthKit";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Used to Share data from HealthKit";
