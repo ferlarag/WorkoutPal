@@ -12,6 +12,23 @@
 		7E6708EF2AD069BF00C60070 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6708EE2AD069BF00C60070 /* ContentView.swift */; };
 		7E6708F12AD069C000C60070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6708F02AD069C000C60070 /* Assets.xcassets */; };
 		7E6708F42AD069C000C60070 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6708F32AD069C000C60070 /* Preview Assets.xcassets */; };
+		7E6709052AD06CC400C60070 /* CustomHKWorkoutActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6709042AD06CC400C60070 /* CustomHKWorkoutActivityType.swift */; };
+		7E6709072AD06D1500C60070 /* MetricsTimelineSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6709062AD06D1500C60070 /* MetricsTimelineSchedule.swift */; };
+		7E6709092AD06D3400C60070 /* NavigationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6709082AD06D3400C60070 /* NavigationModel.swift */; };
+		7E67090B2AD06D4A00C60070 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E67090A2AD06D4A00C60070 /* TimerModel.swift */; };
+		7E67090D2AD06D5E00C60070 /* TimerTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E67090C2AD06D5E00C60070 /* TimerTimeView.swift */; };
+		7E67090F2AD06D7400C60070 /* ActivityRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E67090E2AD06D7400C60070 /* ActivityRingView.swift */; };
+		7E6709112AD06D9500C60070 /* WorkoutSessionSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6709102AD06D9500C60070 /* WorkoutSessionSummaryView.swift */; };
+		7E6709132AD06DB200C60070 /* SelectWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6709122AD06DB200C60070 /* SelectWorkoutView.swift */; };
+		7E6709152AD06DC100C60070 /* CustomTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6709142AD06DC100C60070 /* CustomTimePicker.swift */; };
+		7E6709172AD06DD100C60070 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6709162AD06DD100C60070 /* TimerView.swift */; };
+		7E6709192AD06DEB00C60070 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6709182AD06DEB00C60070 /* SessionView.swift */; };
+		7E67091B2AD06E0700C60070 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E67091A2AD06E0700C60070 /* ElapsedTimeView.swift */; };
+		7E67091D2AD06E9900C60070 /* SessionTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E67091C2AD06E9900C60070 /* SessionTabView.swift */; };
+		7E67091F2AD06EC000C60070 /* HealthKitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E67091E2AD06EC000C60070 /* HealthKitViewModel.swift */; };
+		7E6709212AD06EE000C60070 /* WorkoutsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6709202AD06EE000C60070 /* WorkoutsViewModel.swift */; };
+		7E6709232AD06EF600C60070 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6709222AD06EF600C60070 /* TimerViewModel.swift */; };
+		7E6709252AD06F9100C60070 /* HKWorkoutActvityTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6709242AD06F9100C60070 /* HKWorkoutActvityTypeExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +62,24 @@
 		7E6708EE2AD069BF00C60070 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E6708F02AD069C000C60070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E6708F32AD069C000C60070 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E6708FE2AD06C3500C60070 /* Worktout Pals Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Worktout Pals Watch App.entitlements"; sourceTree = "<group>"; };
+		7E6709042AD06CC400C60070 /* CustomHKWorkoutActivityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHKWorkoutActivityType.swift; sourceTree = "<group>"; };
+		7E6709062AD06D1500C60070 /* MetricsTimelineSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsTimelineSchedule.swift; sourceTree = "<group>"; };
+		7E6709082AD06D3400C60070 /* NavigationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationModel.swift; sourceTree = "<group>"; };
+		7E67090A2AD06D4A00C60070 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		7E67090C2AD06D5E00C60070 /* TimerTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTimeView.swift; sourceTree = "<group>"; };
+		7E67090E2AD06D7400C60070 /* ActivityRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingView.swift; sourceTree = "<group>"; };
+		7E6709102AD06D9500C60070 /* WorkoutSessionSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionSummaryView.swift; sourceTree = "<group>"; };
+		7E6709122AD06DB200C60070 /* SelectWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWorkoutView.swift; sourceTree = "<group>"; };
+		7E6709142AD06DC100C60070 /* CustomTimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimePicker.swift; sourceTree = "<group>"; };
+		7E6709162AD06DD100C60070 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		7E6709182AD06DEB00C60070 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		7E67091A2AD06E0700C60070 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		7E67091C2AD06E9900C60070 /* SessionTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionTabView.swift; sourceTree = "<group>"; };
+		7E67091E2AD06EC000C60070 /* HealthKitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitViewModel.swift; sourceTree = "<group>"; };
+		7E6709202AD06EE000C60070 /* WorkoutsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewModel.swift; sourceTree = "<group>"; };
+		7E6709222AD06EF600C60070 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		7E6709242AD06F9100C60070 /* HKWorkoutActvityTypeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKWorkoutActvityTypeExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +96,11 @@
 		7E6708DA2AD069BE00C60070 = {
 			isa = PBXGroup;
 			children = (
+				7E6709032AD06C7F00C60070 /* Helpers */,
+				7E6709022AD06C7500C60070 /* Extensions */,
+				7E6709012AD06C6D00C60070 /* Model */,
+				7E6709002AD06C6400C60070 /* View */,
+				7E6708FF2AD06C5300C60070 /* ViewModel */,
 				7E6708EB2AD069BF00C60070 /* Worktout Pals Watch App */,
 				7E6708E22AD069BF00C60070 /* Products */,
 			);
@@ -78,6 +118,7 @@
 		7E6708EB2AD069BF00C60070 /* Worktout Pals Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				7E6708FE2AD06C3500C60070 /* Worktout Pals Watch App.entitlements */,
 				7E6708EC2AD069BF00C60070 /* Worktout_PalsApp.swift */,
 				7E6708EE2AD069BF00C60070 /* ContentView.swift */,
 				7E6708F02AD069C000C60070 /* Assets.xcassets */,
@@ -92,6 +133,58 @@
 				7E6708F32AD069C000C60070 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E6708FF2AD06C5300C60070 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7E67091E2AD06EC000C60070 /* HealthKitViewModel.swift */,
+				7E6709202AD06EE000C60070 /* WorkoutsViewModel.swift */,
+				7E6709222AD06EF600C60070 /* TimerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7E6709002AD06C6400C60070 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E67090C2AD06D5E00C60070 /* TimerTimeView.swift */,
+				7E67090E2AD06D7400C60070 /* ActivityRingView.swift */,
+				7E6709102AD06D9500C60070 /* WorkoutSessionSummaryView.swift */,
+				7E6709122AD06DB200C60070 /* SelectWorkoutView.swift */,
+				7E6709142AD06DC100C60070 /* CustomTimePicker.swift */,
+				7E6709162AD06DD100C60070 /* TimerView.swift */,
+				7E6709182AD06DEB00C60070 /* SessionView.swift */,
+				7E67091A2AD06E0700C60070 /* ElapsedTimeView.swift */,
+				7E67091C2AD06E9900C60070 /* SessionTabView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E6709012AD06C6D00C60070 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E6709082AD06D3400C60070 /* NavigationModel.swift */,
+				7E67090A2AD06D4A00C60070 /* TimerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E6709022AD06C7500C60070 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7E6709242AD06F9100C60070 /* HKWorkoutActvityTypeExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7E6709032AD06C7F00C60070 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7E6709042AD06CC400C60070 /* CustomHKWorkoutActivityType.swift */,
+				7E6709062AD06D1500C60070 /* MetricsTimelineSchedule.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +286,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E6708EF2AD069BF00C60070 /* ContentView.swift in Sources */,
+				7E6709152AD06DC100C60070 /* CustomTimePicker.swift in Sources */,
+				7E6709252AD06F9100C60070 /* HKWorkoutActvityTypeExtension.swift in Sources */,
+				7E67090F2AD06D7400C60070 /* ActivityRingView.swift in Sources */,
+				7E6709132AD06DB200C60070 /* SelectWorkoutView.swift in Sources */,
 				7E6708ED2AD069BF00C60070 /* Worktout_PalsApp.swift in Sources */,
+				7E67090D2AD06D5E00C60070 /* TimerTimeView.swift in Sources */,
+				7E6709212AD06EE000C60070 /* WorkoutsViewModel.swift in Sources */,
+				7E6709192AD06DEB00C60070 /* SessionView.swift in Sources */,
+				7E6709172AD06DD100C60070 /* TimerView.swift in Sources */,
+				7E67091D2AD06E9900C60070 /* SessionTabView.swift in Sources */,
+				7E6709232AD06EF600C60070 /* TimerViewModel.swift in Sources */,
+				7E67091B2AD06E0700C60070 /* ElapsedTimeView.swift in Sources */,
+				7E6709092AD06D3400C60070 /* NavigationModel.swift in Sources */,
+				7E67090B2AD06D4A00C60070 /* TimerModel.swift in Sources */,
+				7E6709052AD06CC400C60070 /* CustomHKWorkoutActivityType.swift in Sources */,
+				7E67091F2AD06EC000C60070 /* HealthKitViewModel.swift in Sources */,
+				7E6709072AD06D1500C60070 /* MetricsTimelineSchedule.swift in Sources */,
+				7E6709112AD06D9500C60070 /* WorkoutSessionSummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Worktout Pals Watch App/Worktout Pals Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Worktout Pals Watch App/Preview Content\"";
@@ -334,6 +445,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Worktout Pals";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Used to Read data from HealthKit";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Used to Share data from HealthKit";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Used to Add data to HealthKit";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -357,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Worktout Pals Watch App/Worktout Pals Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Worktout Pals Watch App/Preview Content\"";
@@ -364,6 +479,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Worktout Pals";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Used to Read data from HealthKit";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Used to Share data from HealthKit";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Used to Add data to HealthKit";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
