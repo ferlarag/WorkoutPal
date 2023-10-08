@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E6708E82AD069BF00C60070 /* Worktout Pals Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7E6708E72AD069BF00C60070 /* Worktout Pals Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E6708E82AD069BF00C60070 /* WorkoutPal Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7E6708E72AD069BF00C60070 /* WorkoutPal Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7E6708ED2AD069BF00C60070 /* Worktout_PalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6708EC2AD069BF00C60070 /* Worktout_PalsApp.swift */; };
 		7E6708EF2AD069BF00C60070 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6708EE2AD069BF00C60070 /* ContentView.swift */; };
 		7E6708F12AD069C000C60070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6708F02AD069C000C60070 /* Assets.xcassets */; };
@@ -48,7 +48,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				7E6708E82AD069BF00C60070 /* Worktout Pals Watch App.app in Embed Watch Content */,
+				7E6708E82AD069BF00C60070 /* WorkoutPal Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,13 +56,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7E6708E12AD069BF00C60070 /* Worktout Pals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Worktout Pals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E6708E72AD069BF00C60070 /* Worktout Pals Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Worktout Pals Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6708E12AD069BF00C60070 /* WorkoutPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6708E72AD069BF00C60070 /* WorkoutPal Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorkoutPal Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6708EC2AD069BF00C60070 /* Worktout_PalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worktout_PalsApp.swift; sourceTree = "<group>"; };
 		7E6708EE2AD069BF00C60070 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E6708F02AD069C000C60070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E6708F32AD069C000C60070 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7E6708FE2AD06C3500C60070 /* Worktout Pals Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Worktout Pals Watch App.entitlements"; sourceTree = "<group>"; };
+		7E6708FE2AD06C3500C60070 /* WorkoutPal Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WorkoutPal Watch App.entitlements"; sourceTree = "<group>"; };
 		7E6709042AD06CC400C60070 /* CustomHKWorkoutActivityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHKWorkoutActivityType.swift; sourceTree = "<group>"; };
 		7E6709062AD06D1500C60070 /* MetricsTimelineSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsTimelineSchedule.swift; sourceTree = "<group>"; };
 		7E6709082AD06D3400C60070 /* NavigationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationModel.swift; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 		7E6709202AD06EE000C60070 /* WorkoutsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewModel.swift; sourceTree = "<group>"; };
 		7E6709222AD06EF600C60070 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
 		7E6709242AD06F9100C60070 /* HKWorkoutActvityTypeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKWorkoutActvityTypeExtension.swift; sourceTree = "<group>"; };
-		7E6709262AD071CF00C60070 /* Worktout-Pals-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Worktout-Pals-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7E6709262AD071CF00C60070 /* WorkoutPal-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorkoutPal-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 				7E6709012AD06C6D00C60070 /* Model */,
 				7E6709002AD06C6400C60070 /* View */,
 				7E6708FF2AD06C5300C60070 /* ViewModel */,
-				7E6708EB2AD069BF00C60070 /* Worktout Pals Watch App */,
+				7E6708EB2AD069BF00C60070 /* WorkoutPal Watch App */,
 				7E6708E22AD069BF00C60070 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,23 +110,23 @@
 		7E6708E22AD069BF00C60070 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E6708E12AD069BF00C60070 /* Worktout Pals.app */,
-				7E6708E72AD069BF00C60070 /* Worktout Pals Watch App.app */,
+				7E6708E12AD069BF00C60070 /* WorkoutPal.app */,
+				7E6708E72AD069BF00C60070 /* WorkoutPal Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7E6708EB2AD069BF00C60070 /* Worktout Pals Watch App */ = {
+		7E6708EB2AD069BF00C60070 /* WorkoutPal Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				7E6709262AD071CF00C60070 /* Worktout-Pals-Watch-App-Info.plist */,
-				7E6708FE2AD06C3500C60070 /* Worktout Pals Watch App.entitlements */,
+				7E6709262AD071CF00C60070 /* WorkoutPal-Watch-App-Info.plist */,
+				7E6708FE2AD06C3500C60070 /* WorkoutPal Watch App.entitlements */,
 				7E6708EC2AD069BF00C60070 /* Worktout_PalsApp.swift */,
 				7E6708EE2AD069BF00C60070 /* ContentView.swift */,
 				7E6708F02AD069C000C60070 /* Assets.xcassets */,
 				7E6708F22AD069C000C60070 /* Preview Content */,
 			);
-			path = "Worktout Pals Watch App";
+			path = "WorkoutPal Watch App";
 			sourceTree = "<group>";
 		};
 		7E6708F22AD069C000C60070 /* Preview Content */ = {
@@ -192,9 +192,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E6708E02AD069BF00C60070 /* Worktout Pals */ = {
+		7E6708E02AD069BF00C60070 /* WorkoutPal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E6708FB2AD069C000C60070 /* Build configuration list for PBXNativeTarget "Worktout Pals" */;
+			buildConfigurationList = 7E6708FB2AD069C000C60070 /* Build configuration list for PBXNativeTarget "WorkoutPal" */;
 			buildPhases = (
 				7E6708DF2AD069BF00C60070 /* Resources */,
 				7E6708FA2AD069C000C60070 /* Embed Watch Content */,
@@ -204,14 +204,14 @@
 			dependencies = (
 				7E6708EA2AD069BF00C60070 /* PBXTargetDependency */,
 			);
-			name = "Worktout Pals";
+			name = WorkoutPal;
 			productName = "Worktout Pals";
-			productReference = 7E6708E12AD069BF00C60070 /* Worktout Pals.app */;
+			productReference = 7E6708E12AD069BF00C60070 /* WorkoutPal.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		7E6708E62AD069BF00C60070 /* Worktout Pals Watch App */ = {
+		7E6708E62AD069BF00C60070 /* WorkoutPal Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E6708F72AD069C000C60070 /* Build configuration list for PBXNativeTarget "Worktout Pals Watch App" */;
+			buildConfigurationList = 7E6708F72AD069C000C60070 /* Build configuration list for PBXNativeTarget "WorkoutPal Watch App" */;
 			buildPhases = (
 				7E6708E32AD069BF00C60070 /* Sources */,
 				7E6708E42AD069BF00C60070 /* Frameworks */,
@@ -221,9 +221,9 @@
 			);
 			dependencies = (
 			);
-			name = "Worktout Pals Watch App";
+			name = "WorkoutPal Watch App";
 			productName = "Worktout Pals Watch App";
-			productReference = 7E6708E72AD069BF00C60070 /* Worktout Pals Watch App.app */;
+			productReference = 7E6708E72AD069BF00C60070 /* WorkoutPal Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -244,7 +244,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7E6708DE2AD069BE00C60070 /* Build configuration list for PBXProject "Worktout Pals" */;
+			buildConfigurationList = 7E6708DE2AD069BE00C60070 /* Build configuration list for PBXProject "WorkoutPal" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -257,8 +257,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E6708E02AD069BF00C60070 /* Worktout Pals */,
-				7E6708E62AD069BF00C60070 /* Worktout Pals Watch App */,
+				7E6708E02AD069BF00C60070 /* WorkoutPal */,
+				7E6708E62AD069BF00C60070 /* WorkoutPal Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -314,7 +314,7 @@
 /* Begin PBXTargetDependency section */
 		7E6708EA2AD069BF00C60070 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7E6708E62AD069BF00C60070 /* Worktout Pals Watch App */;
+			target = 7E6708E62AD069BF00C60070 /* WorkoutPal Watch App */;
 			targetProxy = 7E6708E92AD069BF00C60070 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -439,15 +439,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Worktout Pals Watch App/Worktout Pals Watch App.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "WorkoutPal Watch App/WorkoutPal Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Worktout Pals Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WorkoutPal Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = DJA8943T8Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Worktout-Pals-Watch-App-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Worktout Pals";
+				INFOPLIST_FILE = "WorkoutPal-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WorkoutPal;
 				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Used to Read data from HealthKit";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Used to Share data from HealthKit";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Used to Add data to HealthKit";
@@ -458,8 +459,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ferlara.Worktout-Pals.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferlara.WorkoutPal.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -474,15 +476,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Worktout Pals Watch App/Worktout Pals Watch App.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "WorkoutPal Watch App/WorkoutPal Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Worktout Pals Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WorkoutPal Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = DJA8943T8Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Worktout-Pals-Watch-App-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Worktout Pals";
+				INFOPLIST_FILE = "WorkoutPal-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WorkoutPal;
 				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Used to Read data from HealthKit";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Used to Share data from HealthKit";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Used to Add data to HealthKit";
@@ -493,8 +496,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ferlara.Worktout-Pals.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferlara.WorkoutPal.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -512,9 +516,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DJA8943T8Z;
-				INFOPLIST_KEY_CFBundleDisplayName = "Worktout Pals";
+				INFOPLIST_KEY_CFBundleDisplayName = WorkoutPal;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ferlara.Worktout-Pals";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferlara.WorkoutPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -528,9 +532,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DJA8943T8Z;
-				INFOPLIST_KEY_CFBundleDisplayName = "Worktout Pals";
+				INFOPLIST_KEY_CFBundleDisplayName = WorkoutPal;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ferlara.Worktout-Pals";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferlara.WorkoutPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -541,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7E6708DE2AD069BE00C60070 /* Build configuration list for PBXProject "Worktout Pals" */ = {
+		7E6708DE2AD069BE00C60070 /* Build configuration list for PBXProject "WorkoutPal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E6708F52AD069C000C60070 /* Debug */,
@@ -550,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E6708F72AD069C000C60070 /* Build configuration list for PBXNativeTarget "Worktout Pals Watch App" */ = {
+		7E6708F72AD069C000C60070 /* Build configuration list for PBXNativeTarget "WorkoutPal Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E6708F82AD069C000C60070 /* Debug */,
@@ -559,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E6708FB2AD069C000C60070 /* Build configuration list for PBXNativeTarget "Worktout Pals" */ = {
+		7E6708FB2AD069C000C60070 /* Build configuration list for PBXNativeTarget "WorkoutPal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E6708FC2AD069C000C60070 /* Debug */,
