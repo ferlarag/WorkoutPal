@@ -448,7 +448,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WorkoutPal-Watch-App-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = WorkoutPal;
+				INFOPLIST_KEY_CFBundleDisplayName = "Worktout Pals";
 				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Used to Read data from HealthKit";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Used to Share data from HealthKit";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Used to Add data to HealthKit";
@@ -485,7 +485,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WorkoutPal-Watch-App-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = WorkoutPal;
+				INFOPLIST_KEY_CFBundleDisplayName = "Worktout Pals";
 				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Used to Read data from HealthKit";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Used to Share data from HealthKit";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Used to Add data to HealthKit";
