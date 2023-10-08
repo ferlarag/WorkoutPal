@@ -8,10 +8,6 @@
 import Foundation
 import HealthKit
 
-enum ActivityGroup {
-    case basics, recovery, sports, other
-}
-
 //Maybe Extending this Types is a bad idea, check the documentation
 extension HKWorkoutActivityType: Identifiable, CaseIterable, Encodable, Decodable {
     public var id: Self { self }
@@ -69,6 +65,7 @@ extension HKWorkoutActivityType: Identifiable, CaseIterable, Encodable, Decodabl
             .yoga,
             .other]
 
+        //Unused activities
 //        return [.running,
 //            .americanFootball,
 //            .archery,
