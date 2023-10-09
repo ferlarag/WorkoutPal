@@ -70,6 +70,7 @@ class TimerViewModel: ObservableObject {
             self.isRunning = false
             self.elapsedTime = 0
             self.time = 0
+            WKInterfaceDevice.current().play(.stop)
         }
     }
 

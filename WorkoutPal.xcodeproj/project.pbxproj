@@ -449,9 +449,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WorkoutPal-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Worktout Pals";
-				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Used to Read data from HealthKit";
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "Used to Share data from HealthKit";
-				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Used to Add data to HealthKit";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Used to display real-time data from HealthKit";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Used to add Workouts to HealthKit";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,9 +485,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WorkoutPal-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Worktout Pals";
-				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Used to Read data from HealthKit";
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "Used to Share data from HealthKit";
-				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Used to Add data to HealthKit";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Used to display real-time data from HealthKit";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Used to add Workouts to HealthKit";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (

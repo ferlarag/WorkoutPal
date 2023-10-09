@@ -176,18 +176,18 @@ class HealthKitViewModel: NSObject, ObservableObject {
 
 extension HealthKitViewModel: HKWorkoutSessionDelegate {
     func workoutSession(_ workoutSession: HKWorkoutSession, didChangeTo toState: HKWorkoutSessionState, from fromState: HKWorkoutSessionState, date: Date) {
-        DispatchQueue.main.async {
-            switch toState {
-            case .ended:
-                print("Ended")
-            case .running:
-                print("Running")
-            case .paused:
-                print("Paused")
-            default:
-                print("Other")
-            }
-        }
+//        DispatchQueue.main.async {
+//            switch toState {
+//            case .ended:
+//                print("Ended")
+//            case .running:
+//                print("Running")
+//            case .paused:
+//                print("Paused")
+//            default:
+//                print("Other")
+//            }
+//        }
 
         //end the data collection here
         if toState == .ended {

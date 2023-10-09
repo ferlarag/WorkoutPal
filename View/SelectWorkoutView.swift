@@ -66,13 +66,21 @@ private struct SelectActivityButton: View {
                 Image(systemName: activity.icon)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 20, height: 20)
+                    .frame(width: 30, height: 30)
                     .foregroundStyle(.accent)
-                Text(activity.name)
-//                    .lineLimit(1)
+                VStack(alignment: .leading){
+                    Text(activity.name)
+                        .lineLimit(2)
+//                    Spacer()
+                    Text(activity.showDistance ? "Time and Distance" : "Time only")
+                        .font(.footnote)
+                        .foregroundStyle(.gray)
+                }
+                .padding(.vertical)
             }
         }
-        .padding(.vertical)
+        .fontDesign(.rounded)
+        .frame(height: 80)
         .padding(.horizontal, 4)
     }
 }
