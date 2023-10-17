@@ -38,12 +38,20 @@ struct WorkoutSessionSummaryView: View {
 }
 
 private struct SummaryViewItem: View {
+    @Environment(\.locale) var locale
     @EnvironmentObject var health: HealthKitViewModel
     var workout: HKWorkout
     @State private var durationFormatter: DateComponentsFormatter = {
         let formatter = DateComponentsFormatter()
         formatter.allowedUnits = [.hour, .minute, .second]
         formatter.zeroFormattingBehavior = .pad
+        return formatter
+    }()
+
+    @State private var measurementFormatter: MeasurementFormatter = {
+        let formatter = MeasurementFormatter()
+        formatter.unitOptions = .providedUnit
+        formatter.numberFormatter.maximumFractionDigits = 2
         return formatter
     }()
 
@@ -56,23 +64,32 @@ private struct SummaryViewItem: View {
             .fontWeight(.medium)
                 .foregroundStyle(.accent)
             if workout.workoutActivityType.supportsDistance {
-                SummaryMetricView(title: "Total Distance",
-                                  value: Measurement(value: workout.totalDistance?.doubleValue(for: .meter()) ?? 0,
-                                                     unit: UnitLength.meters)
-                                    .formatted(.measurement(width: .abbreviated,
-                                                            usage: .road,
-                                                            numberFormatStyle: .number.precision(.fractionLength(2)))))
-                .foregroundStyle(.pink)
+                let distanceInMeters = workout.totalDistance?.doubleValue(for: .meter()) ?? 0
+                var preferredUnit: UnitLength {
+                    if locale.measurementSystem == .metric {
+                        return .kilometers
+                    } else {
+                        return .miles
+                    }
+                }
+                let convertedDistance = convertDistance(distanceInMeters, to: preferredUnit)
+
+                SummaryMetricView(title: "Total Distance", value: measurementFormatter.string(from: convertedDistance))
+                    .foregroundStyle(.pink)
             }
+
             SummaryMetricView(title: "Total Energy",
-                              value: Measurement(value: workout.totalEnergyBurned?.doubleValue(for: .kilocalorie()) ?? 0,
-                                                 unit: UnitEnergy.kilocalories)
-                                .formatted(.measurement(width: .abbreviated,
-                                                        usage: .workout,
-                                                        numberFormatStyle: .number.precision(.fractionLength(0)))))
-                .foregroundStyle(.pink)
+                              value: Measurement(value: workout.totalEnergyBurned?.doubleValue(for: .kilocalorie()) ?? 0, unit: UnitEnergy.kilocalories)
+                                .formatted(.measurement(width: .abbreviated, usage: .workout, numberFormatStyle: .number.precision(.fractionLength(0)))))
+            .foregroundStyle(.pink)
         }
     }
+
+    private func convertDistance(_ distanceInMeters: Double, to unit: UnitLength) -> Measurement<UnitLength> {
+        let distance = Measurement(value: distanceInMeters, unit: UnitLength.meters)
+        return distance.converted(to: unit)
+    }
+
 }
 
 private struct SummaryMetricView: View {
@@ -108,7 +125,15 @@ private struct ActivityIcon: View {
 }
 
 #Preview {
-    let workout_A = HKWorkout(activityType: .running, start: Date(), end: Date().addingTimeInterval(400), duration: 400, totalEnergyBurned: HKQuantity(unit: .kilocalorie(), doubleValue: 320), totalDistance: HKQuantity(unit: .meter(), doubleValue: 432), device: .local(), metadata: nil)
+    let workout_A = HKWorkout(activityType: .running,
+                              start: Date(),
+                              end: Date().addingTimeInterval(400),
+                              duration: 400,
+                              totalEnergyBurned: HKQuantity(unit: .kilocalorie(),
+                                                            doubleValue: 320),
+                              totalDistance: HKQuantity(unit: .meter(),
+                                                        doubleValue: 432),
+                              device: .local(), metadata: nil)
 
     HealthKitViewModel.shared.recordedWorkouts.append(workout_A)
     return WorkoutSessionSummaryView()
