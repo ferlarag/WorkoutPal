@@ -32,6 +32,7 @@ struct TimePickerView: View {
                     workouts.presentedViews.append(TimerItem(duration: duration))
                     timer.start()
                 }
+                .disabled(timer.selectedTime < 10)
                 .tint(.accent)
                 .padding(.horizontal)
             }
@@ -55,8 +56,18 @@ struct CountdownView: View {
                     .stroke(.accent, style: StrokeStyle(lineWidth: 10, lineCap: .round))
                     .rotationEffect(.degrees(-90))
                     .animation(.easeOut, value: timerVM.progress)
-                TimerTimeView(elapsedTime: (timerVM.time ?? 0) - timerVM.elapsedTime, showSubseconds: false)
-                    .font(.system(.title2, design: .rounded))
+                VStack{
+                    TimerTimeView(elapsedTime: (timerVM.time ?? 0) - timerVM.elapsedTime, showSubseconds: false)
+                        .font(.system(.title, design: .rounded))
+                    if health.activity!.showDistance {
+                        Text(Measurement(value: health.distance, unit: UnitLength.kilometers).formatted(.measurement(width: .abbreviated, usage: .asProvided, numberFormatStyle: .number.precision(.fractionLength(2)))))
+                            .font(.system(.body, design: .rounded).monospacedDigit().lowercaseSmallCaps())
+                    } else {
+                        Text(Measurement(value: health.caloriesBurned, unit: UnitEnergy.kilocalories).formatted(.measurement(width: .abbreviated, usage: .workout, numberFormatStyle: .number.precision(.fractionLength(0)))))
+                            .font(.system(.body, design: .rounded).monospacedDigit().lowercaseSmallCaps())
+                    }
+
+                }
             }
         }
     }

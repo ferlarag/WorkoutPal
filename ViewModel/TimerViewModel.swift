@@ -32,6 +32,10 @@ class TimerViewModel: ObservableObject {
         }
     }
 
+    var selectedTime: Double  {
+        return (minutes * 60) + seconds
+    }
+
     var progress: Double {
         return elapsedTime / (time ?? 0)
     }
