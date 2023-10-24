@@ -29,6 +29,7 @@
 		7E6709212AD06EE000C60070 /* WorkoutsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6709202AD06EE000C60070 /* WorkoutsViewModel.swift */; };
 		7E6709232AD06EF600C60070 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6709222AD06EF600C60070 /* TimerViewModel.swift */; };
 		7E6709252AD06F9100C60070 /* HKWorkoutActvityTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6709242AD06F9100C60070 /* HKWorkoutActvityTypeExtension.swift */; };
+		7EF614E82AE818A50068CFB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6708F02AD069C000C60070 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -268,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF614E82AE818A50068CFB8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = "WorkoutPal Watch App/WorkoutPal Watch App.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -448,7 +451,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WorkoutPal-Watch-App-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Worktout Pals";
+				INFOPLIST_KEY_CFBundleDisplayName = WorktoutPal;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Used to display real-time data from HealthKit";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Used to add Workouts to HealthKit";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -475,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = "WorkoutPal Watch App/WorkoutPal Watch App.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -484,7 +488,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WorkoutPal-Watch-App-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Worktout Pals";
+				INFOPLIST_KEY_CFBundleDisplayName = WorktoutPal;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Used to display real-time data from HealthKit";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Used to add Workouts to HealthKit";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -511,6 +515,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = DJA8943T8Z;
@@ -527,6 +533,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = DJA8943T8Z;
